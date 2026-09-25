@@ -17,7 +17,7 @@ V_imgsz = 640
 
 output = "output"
 segmentation = YOLO(model_seg)  
-depth = YOLO(source = model_deph)
+depth = YOLO(model_deph)
 def get_mask():
     #adasdasdasda
     print("Hello World")
